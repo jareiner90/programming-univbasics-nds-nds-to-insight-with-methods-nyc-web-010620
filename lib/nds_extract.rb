@@ -19,15 +19,16 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  pp nds[0]
+
   result = {
 
   }
   grand_total = 0
   counter = 0
   while counter < nds[counter][:movies].length do
-    grand_total += gross_for_director(nds)
+    grand_total += gross_for_director(nds[counter])
     counter +=  1
+    result[nds[counter][:name]] = grand_total
   end
   return result
 end
