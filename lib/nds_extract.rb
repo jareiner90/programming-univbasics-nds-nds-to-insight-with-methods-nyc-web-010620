@@ -29,8 +29,7 @@ def directors_totals(nds)
     grand_total = 0
     grand_total += gross_for_director(nds[counter])
 
-    pp nds[counter][:name]
-    pp grand_total
+    result[nds[counter][:name]] = grand_total
 
     counter +=  1
   end
