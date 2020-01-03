@@ -27,6 +27,7 @@ def directors_totals(nds)
   counter = 0
   while counter < nds[counter].length do
     pp nds[counter]
+    counter +=  1
   end
   return result
 end
