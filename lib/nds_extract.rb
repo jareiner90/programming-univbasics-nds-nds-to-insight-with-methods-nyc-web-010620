@@ -19,14 +19,14 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  pp nds.length
+
   result = {
 
   }
   grand_total = 0
   counter = 0
   while counter < nds[counter].length do
-    pp nds[counter]
+    pp nds[counter].length
     counter +=  1
   end
   return result
