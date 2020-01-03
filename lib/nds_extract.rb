@@ -28,9 +28,7 @@ def directors_totals(nds)
   while counter < nds[counter][:movies].length do
     grand_total = 0
     grand_total += gross_for_director(nds[counter])
-
     result[nds[counter][:name]] = grand_total
-
     counter +=  1
   end
   return result
