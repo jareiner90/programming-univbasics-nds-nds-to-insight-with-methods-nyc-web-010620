@@ -23,7 +23,7 @@ def directors_totals(nds)
   result = {
 
   }
-  
+
   counter = 0
   while counter < nds[counter][:movies].length do
     grand_total = 0
